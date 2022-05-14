@@ -173,7 +173,7 @@ export default function App() {
             </div>
 
             <div className="row">
-                <div className="col-6 mb-3">
+                <div className="col-12 col-md-6 mb-3">
                   <div className="card">
                     <div class="card-body">
                       <h5 className="card-title">
@@ -185,7 +185,7 @@ export default function App() {
                     </div>
                   </div>
                 </div>
-                <div className="col-6 mb-3">
+                <div className="col-12 col-md-6 mb-3">
                   <div className="card">
                     <div class="card-body">
                       <h5 className="card-title">
@@ -197,7 +197,7 @@ export default function App() {
                     </div>
                   </div>
                 </div>
-                <div className="col-6  mb-3">
+                <div className="col-12 col-md-6 mb-3">
                   <div className="card">
                     <div class="card-body">
                       <h5 className="card-title">
@@ -209,7 +209,7 @@ export default function App() {
                     </div>
                   </div>
                 </div>
-                <div className="col-6  mb-3">
+                <div className="col-12 col-md-6 mb-3">
                   <div className="card">
                     <div class="card-body">
                       <h5 className="card-title">
@@ -221,7 +221,7 @@ export default function App() {
                     </div>
                   </div>
                 </div>
-                <div className="col-6  mb-3">
+                <div className="col-12 col-md-6 mb-3">
                   <div className="card">
                     <div class="card-body">
                       <h5 className="card-title">
@@ -233,7 +233,7 @@ export default function App() {
                     </div>
                   </div>
                 </div>
-                <div className="col-6  mb-3">
+                <div className="col-12 col-md-6 mb-3">
                   <div className="card">
                     <div class="card-body">
                       <h5 className="card-title">
