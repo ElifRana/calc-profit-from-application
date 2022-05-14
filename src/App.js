@@ -201,18 +201,6 @@ export default function App() {
                   <div className="card">
                     <div class="card-body">
                       <h5 className="card-title">
-                        Kazanç
-                      </h5>
-                      <div className="card-text">
-                        <Line options={options} data={total} />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-12 col-md-6 mb-3">
-                  <div className="card">
-                    <div class="card-body">
-                      <h5 className="card-title">
                         Kazanç Bar
                       </h5>
                       <div className="card-text">
