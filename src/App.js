@@ -96,7 +96,7 @@ export default function App() {
         },
         {
           label: 'Faiz\'e Yatırılsaydı',
-          data: labels.map(period => startExpense * Math.pow(1+i/12, period) + advertising * (Math.pow(1+i/12, period) - 1) / i),
+          data: labels.map(period => startExpense * Math.pow(1+i/12, period) + advertising * (Math.pow(1+i/12, period) - 1) / (i/12)),
           borderColor: 'rgb(255, 99, 132)',
           backgroundColor: 'rgba(255, 99, 132, 0.5)',
         }
