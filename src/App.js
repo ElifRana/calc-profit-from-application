@@ -50,8 +50,6 @@ export default function App() {
     const [userRatio, setUserRatio] = useState(0.7);
 
     const profitPeriod = calcProfit(1, purchaseRatio, startExpense, advertising, inAppPurchase, i, userRatio);
-    const minProfit = income(advertising, purchaseRatio, inAppPurchase, i, 1);
-    const maxProfit = income(advertising, purchaseRatio, inAppPurchase, i, profitPeriod);
 
     const labels = new Array(profitPeriod + 5).fill().map((x, i) => i+1);
 
